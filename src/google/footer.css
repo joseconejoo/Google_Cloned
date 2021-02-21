@@ -20,3 +20,21 @@
     bottom:0;
     width : 100%;
 }
+
+
+
+.footer_mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer_mid2 {
+    padding: 0 20px;
+}
+.foot_ext {
+    text-decoration: none;
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
