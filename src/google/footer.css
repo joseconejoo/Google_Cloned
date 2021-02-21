@@ -1,0 +1,22 @@
+.Footer1 {
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.Country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    font-family: arial,sans-serif;
+}
+
+.Footer1{
+    /*
+    margin-top : 30vh;
+    min-height: calc(100vh - 85vh);
+    */
+    position:fixed;
+    bottom:0;
+    width : 100%;
+}

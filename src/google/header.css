@@ -1,0 +1,132 @@
+.header1 {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.header2 {
+    display: inline-block;
+    flex-grow: 1;
+}
+.header3 {
+    min-width: auto;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    transition: box-shadow 250ms;
+    position: relative;
+    color: black;
+}
+
+.header4 {
+    padding-left: 0;
+    float: right;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    justify-content: flex-end;
+
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+.header5 {
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.Botones {
+    float: right;
+
+    position: relative;
+}
+
+.Boton_ini {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+
+    float: right;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 0.5625em 1.4375em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.elementos1{
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 0.9375em;
+    white-space: nowrap;
+    float: right;
+}
+@media (max-width:400px){
+    .elementos1 {
+        padding-right:0em;
+    }
+
+}
+.gmail {
+    display: inline-block;
+    padding-left: 0.9375em;
+}
+
+.gmail_text {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+.cuadrado1 {
+    display: inline;
+    white-space: nowrap;
+}
+.cuadrado2 {
+    padding-left: 4px;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cuadrado3 {
+    position: relative;
+    line-height: normal;
+}
+.cuadrado4 {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 1;
+    box-sizing: border-box;
+    height: 1.75em;
+    width: 1.75em;
+    border-radius: 2px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+}
